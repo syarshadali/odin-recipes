@@ -76,7 +76,7 @@ img {
 }
 
 
-/* Navigation Menu Specicic Styles */
+/* Navigation Menu Specific Styles */
 
 nav {
     text-align: center;
@@ -112,6 +112,34 @@ nav a:focus {
 }
 
 nav a:active {
+    color: #fff;
+    background-color: grey;
+}
+
+
+/* Link Specific Styles */
+
+
+p a {
+    text-decoration: none;
+    color: rgb(179, 57, 81);
+    font-weight: bold;
+    border: 0.1rem solid rgb(179, 57, 81);
+    padding: 1rem;
+    text-align: center;
+}
+
+.link {
+    margin: 5rem 4rem 5rem 4rem;
+}
+
+p a:hover,
+p a:focus {
+    color: #fff;
+    background-color: rgb(179, 57, 81);
+}
+
+p a:active {
     color: #fff;
     background-color: grey;
 }
