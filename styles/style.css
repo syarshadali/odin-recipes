@@ -65,8 +65,53 @@ h2 + p {
     text-indent: 2rem;
 }
 
+
+/* Image Specific Styles */
+
+
 img {
     display: block;
     margin: 0.5rem auto;
     width: 50%;
+}
+
+
+/* Navigation Menu Specicic Styles */
+
+nav {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    line-height: 2;
+    margin: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(179, 57, 81);
+    font-weight: bold;
+    border: 0.1rem solid rgb(179, 57, 81);
+    padding: 1rem;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #fff;
+    background-color: rgb(179, 57, 81);
+}
+
+nav a:active {
+    color: #fff;
+    background-color: grey;
 }
